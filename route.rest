@@ -1,0 +1,15 @@
+GET http://localhost:3000/developers
+
+###
+
+POST http://localhost:3000/developers
+content-Type: application/json
+
+{
+    "name": "ansi22",
+    "product": "something amazing"
+}
+
+###
+
+DELETE http://localhost:3000/developers/61b0a1a04f85643d46d86321
